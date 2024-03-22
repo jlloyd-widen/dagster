@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="dagster-ui-screenshot",
-    version="1!0+dev",
+    version="1.6.11",
     author_email="hello@dagsterlabs.com",
     packages=find_packages(exclude=["dagster_ui_screenshot_tests*"]),  # same as name
     install_requires=[

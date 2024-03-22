@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="development_to_production",
-    version="1!0+dev",
+    version="1.6.11",
     author_email="hello@dagsterlabs.com",
     packages=["development_to_production"],  # same as name
     install_requires=[

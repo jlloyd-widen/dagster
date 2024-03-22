@@ -191,4 +191,4 @@ def test_scaffold_repository_command_succeeds():
 
 def test_versioned_download():
     assert _get_url_for_version("1.3.3").endswith("1.3.3")
-    assert _get_url_for_version("1!0+dev").endswith("master")
+    assert _get_url_for_version("1.6.11").endswith("master")

@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="dagster-test",
-    version="1!0+dev",
+    version="1.6.11",
     author="Dagster Labs",
     author_email="hello@dagsterlabs.com",
     license="Apache-2.0",

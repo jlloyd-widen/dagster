@@ -149,7 +149,7 @@ def test_feature_flags(workspace_request_context):
         CodeLocationFeatureFlags.SHOW_SINGLE_RUN_BACKFILL_TOGGLE: False
     }
 
-    dev_version = _location_with_mocked_versions({"dagster": "1!0+dev"})
+    dev_version = _location_with_mocked_versions({"dagster": "1.6.11"})
 
     assert get_feature_flags_for_location(dev_version) == {
         CodeLocationFeatureFlags.SHOW_SINGLE_RUN_BACKFILL_TOGGLE: False

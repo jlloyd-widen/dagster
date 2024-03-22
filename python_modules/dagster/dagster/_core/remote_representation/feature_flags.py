@@ -37,7 +37,7 @@ def get_should_show_single_run_backfill_toggle(code_location_entry: "CodeLocatio
         # Old enough version that it wasn't being stored
         return True
 
-    if dagster_library_version == "1!0+dev":
+    if dagster_library_version == "1.6.11":
         return False
 
     try:

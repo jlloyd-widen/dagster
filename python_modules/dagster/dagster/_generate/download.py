@@ -43,7 +43,7 @@ AVAILABLE_EXAMPLES = [
 
 
 def _get_target_for_version(version: str) -> str:
-    if version == "1!0+dev":
+    if version == "1.6.11":
         target = "master"
     else:
         target = version

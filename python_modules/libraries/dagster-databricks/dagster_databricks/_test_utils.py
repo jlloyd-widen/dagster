@@ -13,7 +13,7 @@ from databricks.sdk.service import files
 
 from dagster_databricks.pipes import dbfs_tempdir
 
-DAGSTER_PIPES_WHL_FILENAME = "dagster_pipes-1!0+dev-py3-none-any.whl"
+DAGSTER_PIPES_WHL_FILENAME = "dagster_pipes-1.6.11-py3-none-any.whl"
 
 # This has been manually uploaded to a test DBFS workspace.
 DAGSTER_PIPES_WHL_PATH = f"dbfs:/FileStore/jars/{DAGSTER_PIPES_WHL_FILENAME}"
